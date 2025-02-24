@@ -1,9 +1,9 @@
 import pandas as pd
 
-def arima_predict(data: pd.DataFrame):
+def arima_predict(data: pd.DataFrame, duration: int):
     # logic for using ARIMA
-    return [0]*len(data)
+    return [0]*duration
 
-def regression_predict(data: pd.DataFrame):
+def regression_predict(data: pd.DataFrame, duration: int):
     # logic for using ARIMA
-    return [1]*len(data)
+    return [1]*duration
